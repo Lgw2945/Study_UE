@@ -8,15 +8,16 @@ AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-    start = FVector2D(0, 0);
-    sum = 0;
+	start = FVector2D(0, 0);
+	sum = 0;
 }
 
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-    move();
+	UE_LOG(LogTemp, Warning, TEXT("start : %.0f, %.0f"), start.X, start.Y);
+	move();
 }
 
 
@@ -24,7 +25,6 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AMyActor::move() {
