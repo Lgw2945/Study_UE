@@ -23,9 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void move();
+	void Move();
 
-	int32 step();
+	int32 Step(int32 a, int32 b);
 
 	float distance(FVector2D first, FVector2D second);
 
