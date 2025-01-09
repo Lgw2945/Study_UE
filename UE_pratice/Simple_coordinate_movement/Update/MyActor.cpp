@@ -8,16 +8,16 @@ AMyActor::AMyActor()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	start = FVector2D(0, 0);
-	sum = 0;
+    start = FVector2D(0, 0);
+    sum = 0;
 }
 
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("start : %.0f, %.0f"), start.X, start.Y);
-	move();
+    UE_LOG(LogTemp, Warning, TEXT("start : %.0f, %.0f"), start.X, start.Y);
+    Move();
 }
 
 
@@ -25,30 +25,31 @@ void AMyActor::BeginPlay()
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 }
 
-void AMyActor::move() {
+void AMyActor::Move() {
 
-    // 현재 위치 ing에 저장하기
-    FVector2D ing = start;
+    // 현재 위치 current에 저장하기
+    FVector2D current = start;
 
     // 10회 이동
     for (int32 i = 0; i < 10; ++i) {
-        // step() 함수 호출하기
-        int32 xStep = step();
-        int32 yStep = step();
+        // Step() 함수 호출하기
+        int32 xStep = Step(0, 1);
+        int32 yStep = Step(0, 1);
 
         //위치 업데이트
-        ing.X += xStep;
-        ing.Y += yStep;
+        current.X += xStep;
+        current.Y += yStep;
 
         // 현재 위치 LOG 띄우기
-        UE_LOG(LogTemp, Warning, TEXT("Current Position: (%.0f, %.0f)"), ing.X, ing.Y);
+        UE_LOG(LogTemp, Warning, TEXT("Current Position: (%.0f, %.0f)"), current.X, current.Y);
 
         //도전(이동거리 표기)
-        distance(ing, start);
+        distance(current, start);
 
-        start = ing;
+        start = current;
 
         //도전(50% 확률로 실행)
         TriggerEventWithProbability(50.0f);
@@ -59,9 +60,9 @@ void AMyActor::move() {
     UE_LOG(LogTemp, Warning, TEXT("totDist : %.3f \n"), totDist);
 }
 
-int32 AMyActor::step() {
+int32 AMyActor::Step(int32 a, int32 b) {
     //랜덤 0~ 1 정수 리턴하기
-    return FMath::RandRange(0, 1);
+    return FMath::RandRange(a, b);
 }
 
 float AMyActor::distance(FVector2D first, FVector2D second) {
