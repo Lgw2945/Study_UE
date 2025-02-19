@@ -1,0 +1,42 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CH3_2.cpp.obj": [
+			"BaseItem.gen.cpp.obj",
+			"BigCoinItem.gen.cpp.obj",
+			"CH3_2.init.gen.cpp.obj",
+			"CoinItem.gen.cpp.obj",
+			"HealingItem.gen.cpp.obj",
+			"ItemInterface.gen.cpp.obj",
+			"ItemSpawnRow.gen.cpp.obj",
+			"MineItem.gen.cpp.obj",
+			"MyCharacter.gen.cpp.obj",
+			"MyGameInstance.gen.cpp.obj",
+			"MyGameMode.gen.cpp.obj",
+			"MyGameState.gen.cpp.obj",
+			"MyPawn.gen.cpp.obj",
+			"MyPawn123.gen.cpp.obj",
+			"MyPlayerController.gen.cpp.obj",
+			"SmallCoinItem.gen.cpp.obj",
+			"SpawnVolume.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"CH3_2.cpp.obj",
+			"BaseItem.cpp.obj",
+			"BigCoinItem.cpp.obj",
+			"CoinItem.cpp.obj",
+			"HealingItem.cpp.obj",
+			"ItemInterface.cpp.obj",
+			"ItemSpawnRow.cpp.obj",
+			"MineItem.cpp.obj",
+			"MyCharacter.cpp.obj",
+			"MyGameInstance.cpp.obj",
+			"MyGameMode.cpp.obj",
+			"MyGameState.cpp.obj",
+			"MyPawn.cpp.obj",
+			"MyPawn123.cpp.obj",
+			"MyPlayerController.cpp.obj",
+			"SmallCoinItem.cpp.obj",
+			"SpawnVolume.cpp.obj"
+		]
+	}
+}

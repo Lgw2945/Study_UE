@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CH3_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CH3_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CH3_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CH3_2">
+      <UniqueIdentifier>{1361999B-9430-3B82-A38D-C30267F52C62}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CH3_2\CH3_2.Build.cs">
+      <Filter>Source\CH3_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CH3_2\CH3_2.cpp">
+      <Filter>Source\CH3_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\CH3_2.h">
+      <Filter>Source\CH3_2</Filter>
+    </ClCompile>
+    <Filter Include="Source\CH3_2\Private">
+      <UniqueIdentifier>{1F1219E4-2A35-39BC-8907-B2052588AAAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CH3_2\Private\BaseItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\BigCoinItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\CoinItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\HealingItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\ItemInterface.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\ItemSpawnRow.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MineItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyCharacter.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyGameInstance.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyGameMode.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyGameState.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyPawn.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\MyPlayerController.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\SmallCoinItem.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Private\SpawnVolume.cpp">
+      <Filter>Source\CH3_2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CH3_2\Public">
+      <UniqueIdentifier>{ACB6D95F-083F-3EC8-AD3D-8AD44D26C71C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CH3_2\Public\BaseItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\BigCoinItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\CoinItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\HealingItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\ItemInterface.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\ItemSpawnRow.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MineItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyCharacter.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyGameInstance.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyGameMode.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyGameState.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyPawn.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\MyPlayerController.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\SmallCoinItem.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CH3_2\Public\SpawnVolume.h">
+      <Filter>Source\CH3_2\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

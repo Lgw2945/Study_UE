@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\private\\bigcoinitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\x64\\ch3_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ch3_2\\definitions.ch3_2.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\bigcoinitem.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\coinitem.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\baseitem.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\iteminterface.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\iteminterface.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\baseitem.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\coinitem.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\bigcoinitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

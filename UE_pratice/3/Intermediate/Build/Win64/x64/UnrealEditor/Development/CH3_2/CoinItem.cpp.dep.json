@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\private\\coinitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\x64\\ch3_2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ch3_2\\definitions.ch3_2.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\coinitem.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\baseitem.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\iteminterface.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\iteminterface.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\baseitem.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\coinitem.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\source\\ch3_2\\public\\mygamestate.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestate.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestate.generated.h",
+            "c:\\users\\user\\documents\\unreal projects\\ch3_2\\intermediate\\build\\win64\\unrealeditor\\inc\\ch3_2\\uht\\mygamestate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

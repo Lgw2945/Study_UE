@@ -1,0 +1,29 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CH3_2-0045.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\CH3_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\Module.CH3_2.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\CH3_2.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\BaseItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\BigCoinItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\CoinItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\HealingItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\ItemInterface.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\ItemSpawnRow.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MineItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyCharacter.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyGameInstance.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyGameMode.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyGameState.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPawn.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPawn123.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPlayerController.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\SmallCoinItem.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\SpawnVolume.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\Default.rc2.res"
+/OUT:"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\UnrealEditor-CH3_2-0045.lib"

@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CH3_2-0292.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\CH3_2Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\CH3_2.init.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyCharacter.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyGameMode.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPawn.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPlayerController.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\CH3_2.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyCharacter.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyGameMode.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPawn.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\MyPlayerController.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\PerModuleInline.gen.cpp.obj"
+"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\Default.rc2.res"
+/OUT:"C:\Users\USER\Documents\Unreal Projects\CH3_2\Intermediate\Build\Win64\x64\UnrealEditor\Development\CH3_2\UnrealEditor-CH3_2-0292.lib"
